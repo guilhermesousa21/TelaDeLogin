@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+body{
+background-color: #f6f6f9;
+}
+.container{
+    width: 450px;
+    background-color: #0088d2;
+    border-radius: 70px 0 70px 0;
+    padding: 20px 50px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    transform: translateY(50%);
+    flex-direction: column;
+}
+.form{
+    margin-bottom: 2rem;
+}
+.container h2{
+    margin: 2rem 0;
+    text-align: center;
+    padding-bottom: 2rem;
+    color: aliceblue;
+    border-bottom: 1px solid aliceblue; /*cria borda embaixo do nome*/
+    font-size: 2rem;
+}
+.form label, input{
+    display: block;
+    width: 100%; /*100% em relação aos 450px do container*/
+}
+.form label{
+    margin-bottom: 2px;
+    color: aliceblue;
+    font-size: 18px;
+}
+.form input{
+    padding: 15px;
+    border: 0;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.form a{
+width: 100%;
+background: aliceblue;
+height: 50px;
+padding: 15px;
+margin-top: 20px;
+display: flex;
+justify-content: center;
+color: #000;
+font-size: 1.2rem;
+border-radius: 5px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.link a{
+    color: #f6f6f9;
+}
+.link a:hover{
+    text-decoration: underline;
+}
